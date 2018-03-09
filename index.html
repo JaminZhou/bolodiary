@@ -8,21 +8,29 @@
 		body {
 			margin: 0;
 		}
-		.wrapper {
-			height: 100vh;
-			overflow: hidden;
-			display: flex;
-			align-items: center;
-			justify-content: center;
+		.wrapper { 
+			width: 800px;
+			height: 600px;
+			background-image: url(appstore_online.png);   
+			position: absolute;
+		   	left: 50%;
+		   	top: 50%; 
+		   	margin-left: -400px;
+		   	margin-top: -300px;
 		}
-		p {
-			font-weight: bold;
-			font-size: 24px;
-			color: #d5d5d3;
+		.appstore {
+			width: 184px;
+			height: 48px;
+			margin-left: 354px;
+			margin-top: 309px;
 		}
 	</style>
 </head>
 <body>
-	<div class="wrapper"><p>Hello, Bolo</p></div>
+	<div class="wrapper">
+		<a href="https://itunes.apple.com/cn/app/bolo-daily-story/id1347804278">
+			<div class="appstore"></div>
+		</a>
+	</div>
 </body>
 </html>
